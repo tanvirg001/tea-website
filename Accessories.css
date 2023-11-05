@@ -1,0 +1,285 @@
+     *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(39 39 39);
+}
+
+
+/* Header */
+
+.main-header > div{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0px;
+    /* background-color: aqua; */
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+.header-a1 > a{
+    display: flex;
+    gap: 10px;
+    margin-top: -8px;
+    font-family: 'Prosto One', cursive;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.header-b1{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    gap: 50px;
+    display: flex;
+}
+.header-b1 > a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-weight: 500;
+}
+.header-c1{
+    font-size: 20px;
+    display: flex;
+    gap: 40px;
+}
+.header-c1 > i{
+    cursor: pointer;
+}
+
+
+
+/* Main Content */
+
+
+/* main-section-a1 */
+
+.main-div-section-a1{
+    font-family: 'Montserrat', sans-serif;
+}
+.sub-div-a1 > p{
+    margin-left: 80px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.sub-div-a2{
+    display: flex;
+    padding: 50px 80px;
+}
+.sub-div-sub-a1 > img{
+    height: 520px;
+    width: 480px;
+}
+.sub-div-sub-a2{
+    padding-left: 100px;
+}
+.sub-div-sub-a2 > h3{
+    font-size: 40px;
+    font-family: 'Prosto One', cursive;
+    font-weight: 500;
+}
+.sub-div-sub-a2 > p{
+    padding: 20px 0px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.sub-div-main-row1{
+    padding: 20px 0px;
+}
+.sub-div-main-row2 > p{
+    font-size: 40px;
+    font-weight: 500;
+}
+.sub-div-main-row3 > p{
+    font-weight: 500;
+    padding: 20px 0px;
+    font-size: 17px;
+}
+.sub-div-main-row1 > div > p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.sub-div-main-row1{
+    display: flex;
+}
+.sub-div-main-row1 > div{
+    display: flex;
+}
+.sub-div-main-row4  {
+    display: flex;
+}
+.sub-div-main-row5{
+    display: flex;
+    gap: 30px;
+    padding: 40px 0px;
+}
+.sub-div-main-row5 > div{
+    display: flex;
+    gap: 20px;
+}
+.sub-div-main-row5 > div > p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 13px;
+}
+.sub-div-main-row5 > div > a{
+    display: flex;
+    text-decoration: none;
+    border: 2px solid;
+    padding: 18px 80px;
+    font-size: 16px;
+    gap: 10px;
+    font-weight: 500;
+    background-color: rgb(39 39 39);
+    color: white;
+}
+.sub-div-main-row5 > div > a:hover{
+    background-color: #fff;
+    color: rgb(39 39 39);
+    transition: 0.5s;
+    font-weight: 400;
+}
+.sub-div-main-row5 > div > a > i{
+    color: white;
+}
+
+.sub-div-main-row5:hover .custom{
+    color: black;
+}
+
+
+
+
+/* main-section-b1 */
+
+.main-div-section-b1{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+}
+.main-div-section-b1{
+    padding: 50px 120px;
+    background-color: rgb(244 244 244);
+}
+.sub-div-b1 > div{
+    display: flex;
+    padding: 15px 0px;
+}
+.sub-div-b1 > p{
+    font-size: 35px;
+    font-weight: 400;
+}
+.sub-div-b1 > div > p{
+    font-size: 16px;
+    margin: 5px 0px 0px 10px;
+    font-weight: 500;
+}
+.sub-div-b1 > div > p > span{
+    font-weight: 600;
+}
+.sub-div-b2{
+    position: absolute;
+    margin: 0px 0px 0px 500px;
+}
+.sub-div-b2 > p{
+    font-size: 35px;
+    font-weight: 400;
+}
+.sub-div-b2 > div{
+    display: flex;
+    gap: 50px;
+    padding: 20px 0px;
+}
+.sub-div-b2 > div > div{
+    margin: 15px 0px 20px 0px;
+}
+.sub-div-b2 > div > p{
+    margin: 0px 200px 0px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+}
+.sub-div-b2 > div > div > p > span{
+    font-weight: 600;
+}
+
+
+/* main-section-c1 */
+
+.main-div-section-c1{
+    font-family: 'Montserrat', sans-serif;
+}
+.sub-div-c1 > p{
+    font-family: 'Prosto One', cursive;
+    font-size: 33px;
+    text-align: center;
+    padding: 60px 0px 50px 0px;
+}
+.sub-div-c2{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 110px 100px 110px;
+    text-align: center;
+}
+.sub-div-c2 > div > img{
+    height: 275px;
+    width: 275px;
+}
+.sub-div-c2 > div > p{
+    /* text-align: center; */
+    margin: 7px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.sub-div-c2 > div > p > span{
+    font-size: 19px;
+    font-weight: 600;
+}
+
+
+
+/* Footer */
+
+.main-div-footer{
+    background-color: rgb(244 244 244);
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+    padding: 30px 10px;
+    margin-top: -9px;
+}
+.footer-a1 > h3{
+    margin-bottom: 30px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.footer-a1 > p{
+    margin-bottom: 11px;
+    cursor: pointer;
+}
+.footer-b1 > h3{
+    margin-bottom: 30px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.footer-b1 > p{
+    margin-bottom: 11px;
+    cursor: pointer;
+}
+.footer-c1 > h3{
+    margin-bottom: 30px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.footer-c1 > p{
+    margin-bottom: 11px;
+    cursor: pointer;
+}
+.footer-d1 > h3{
+    margin-bottom: 30px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.footer-d1 > p{
+    margin-bottom: 11px;
+    cursor: pointer;
+}
